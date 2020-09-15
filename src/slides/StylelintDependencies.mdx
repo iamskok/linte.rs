@@ -1,0 +1,19 @@
+import { CodeSurfer } from "code-surfer";
+import { github } from "@code-surfer/themes";
+import Layout from "../components/Layout";
+
+<CodeSurfer theme={github}>
+
+
+```bash title="Stylelint dependencies"
+yarn add -D stylelint \
+            stylelint-config-sass-guidelines \
+            stylelint-config-rational-order
+```
+
+</CodeSurfer>
+
+
+export default ({ children }) => (
+  <Layout>{children}</Layout>
+);

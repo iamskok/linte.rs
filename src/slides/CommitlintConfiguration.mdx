@@ -1,0 +1,19 @@
+import { CodeSurfer } from "code-surfer";
+import { github } from "@code-surfer/themes";
+import Layout from "../components/Layout";
+
+<CodeSurfer theme={github}>
+
+
+```js title=".commitlintrc.js"
+module.exports = {
+  extends: ["@commitlint/config-conventional"],
+};
+```
+
+</CodeSurfer>
+
+
+export default ({ children }) => (
+  <Layout>{children}</Layout>
+);

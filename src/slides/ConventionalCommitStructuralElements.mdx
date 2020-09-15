@@ -1,0 +1,18 @@
+import Layout from "../components/Layout";
+
+<div style={{ fontSize: `20px` }}>
+
+
+The commit contains the following structural elements, to communicate intent to the consumers of your library:
+
+- `fix:` a commit of the type fix patches a bug in your codebase.
+- `feat:` a commit of the type feat introduces a new feature to the codebase.
+- `BREAKING CHANGE:` a commit that has a footer BREAKING CHANGE:, or appends a `!` after the type/scope, introduces a breaking API change.
+- Other types are allowed: `chore:`, `ci:`, `docs:`, `style:`, `refactor:`, `perf:`, `test:`.
+
+</div>
+
+
+export default ({ children }) => (
+  <Layout>{children}</Layout>
+);

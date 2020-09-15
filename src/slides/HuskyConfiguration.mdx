@@ -1,0 +1,22 @@
+import { CodeSurfer } from "code-surfer";
+import { github } from "@code-surfer/themes";
+import Layout from "../components/Layout";
+
+<CodeSurfer theme={github}>
+
+
+```js title=".huskyrc.js"
+module.exports = {
+  hooks: {
+    "commit-msg": "yarn commitlint -E HUSKY_GIT_PARAMS",
+    "pre-push": "yarn lint:fix && yarn stylelint:fix",
+  },
+};
+```
+
+</CodeSurfer>
+
+
+export default ({ children }) => (
+  <Layout>{children}</Layout>
+);

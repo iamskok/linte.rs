@@ -1,0 +1,22 @@
+import { CodeSurfer } from "code-surfer";
+import { github } from "@code-surfer/themes";
+import Layout from "../components/Layout";
+
+<CodeSurfer theme={github}>
+
+
+```json title=".stylelintrc.json"
+{
+  "extends": [
+    "stylelint-config-rational-order",
+    "stylelint-config-sass-guidelines"
+  ]
+}
+```
+
+</CodeSurfer>
+
+
+export default ({ children }) => (
+  <Layout>{children}</Layout>
+);

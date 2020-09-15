@@ -1,0 +1,18 @@
+import { CodeSurfer } from "code-surfer";
+import { github } from "@code-surfer/themes";
+import Layout from "../components/Layout";
+
+<CodeSurfer theme={github}>
+
+
+```bash title="Commitlint dependencies"
+yarn add -D @commitlint/cli \
+            @commitlint/config-conventional
+```
+
+</CodeSurfer>
+
+
+export default ({ children }) => (
+  <Layout>{children}</Layout>
+);

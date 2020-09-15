@@ -1,0 +1,23 @@
+import { CodeSurfer } from "code-surfer";
+import { github } from "@code-surfer/themes";
+import Layout from "../components/Layout";
+
+<CodeSurfer theme={github}>
+
+
+```bash title="ESLint dependencies"
+yarn add -D eslint \
+            eslint-plugin-react \
+            eslint-plugin-jsx-a11y \
+            eslint-plugin-react-hooks \
+            eslint-plugin-import \
+            @typescript-eslint/parser \
+            @typescript-eslint/eslint-plugin
+```
+
+</CodeSurfer>
+
+
+export default ({ children }) => (
+  <Layout>{children}</Layout>
+);

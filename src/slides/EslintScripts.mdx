@@ -1,0 +1,22 @@
+import { CodeSurfer } from "code-surfer";
+import { github } from "@code-surfer/themes";
+import Layout from "../components/Layout";
+
+<CodeSurfer theme={github}>
+
+
+```json title="package.json"
+{
+  "scripts": {
+    "eslint": "eslint --ext .js, .jsx, .ts, .tsx .",
+    "eslint:fix": "eslint --fix --ext .js, .jsx, .ts, .tsx ."
+  }
+}
+```
+
+</CodeSurfer>
+
+
+export default ({ children }) => (
+  <Layout>{children}</Layout>
+);

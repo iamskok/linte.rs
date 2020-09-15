@@ -1,0 +1,21 @@
+import { CodeSurfer } from "code-surfer";
+import { github } from "@code-surfer/themes";
+import Layout from "../components/Layout";
+
+<CodeSurfer theme={github}>
+
+
+```bash title="Conventional commit structure"
+<type>[optional scope]: <description>
+
+[optional body]
+
+[optional footer(s)]
+```
+
+</CodeSurfer>
+
+
+export default ({ children }) => (
+  <Layout>{children}</Layout>
+);
