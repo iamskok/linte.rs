@@ -1,6 +1,16 @@
 {
   "private": true,
+  "name": "linte.rs",
   "version": "1.0.0",
+  "license": "MIT",
+  "author": "Vladimir Skok",
+  "keywords": [
+    "gatsby",
+    "mdx",
+    "mdx-deck",
+    "code-surfer",
+    "netlify"
+  ],
   "scripts": {
     "start": "mdx-deck index.mdx",
     "build": "mdx-deck build index.mdx",
@@ -9,6 +19,5 @@
   "devDependencies": {
     "code-surfer": "3.1.0",
     "mdx-deck": "3.0.13"
-  },
-  "name": "linters"
+  }
 }
