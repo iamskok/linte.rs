@@ -1,7 +1,15 @@
 import Layout from "../components/Layout";
+import eslintLogoSrc from "../images/eslint-logo.svg";
 
-# ESLint Intro
+<div
+  style={{
+    display: "flex",
+    flexDirection: "row",
+    justifyContent: "space-around",
+  }}
+>
+  <h1>ESLint</h1>
+  <img style={{ width: 200 }} src={eslintLogoSrc} alt="ESLint logo" />
+</div>
 
-export default ({ children }) => (
-  <Layout>{children}</Layout>
-);
+export default ({ children }) => <Layout>{children}</Layout>;

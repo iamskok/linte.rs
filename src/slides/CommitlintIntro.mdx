@@ -1,7 +1,15 @@
 import Layout from "../components/Layout";
+import commitlintLogoSrc from "../images/commitlint-logo.svg";
 
-# Commitlint Intro
+<div
+  style={{
+    display: "flex",
+    flexDirection: "row",
+    justifyContent: "space-around",
+  }}
+>
+  <h1>Commitlint</h1>
+  <img src={commitlintLogoSrc} alt="Commitlint output" />
+</div>
 
-export default ({ children }) => (
-  <Layout>{children}</Layout>
-);
+export default ({ children }) => <Layout>{children}</Layout>;
