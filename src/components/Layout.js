@@ -1,14 +1,14 @@
-/** @jsx jsx */
-import { Fragment } from 'react'
-import { jsx } from 'theme-ui'
-import Main from './Main'
+import React from 'react'
 
 export default ({ children }) => {
   return (
-    <Main>
-      <Fragment>
-        {children}
-      </Fragment>
-    </Main>
+    <main
+      style={{
+        width: '100%',
+        maxWidth: '1200px',
+      }}
+    >
+      {children}
+    </main>
   )
 }
