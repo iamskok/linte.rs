@@ -1022,13 +1022,13 @@
     lodash "^4.17.19"
     to-fast-properties "^2.0.0"
 
-"@code-surfer/standalone@3.1.0":
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/@code-surfer/standalone/-/standalone-3.1.0.tgz#10b1f4a9f34da44af966574d9bffe662bc10be3a"
-  integrity sha512-F/24ALEsafNlovSBTi1h09gjClR3EMH0ruE4HDKMZYrySYV7TdHxCVnNFvgDh0aXDuc0hCTBsYSAcfvTu514Dg==
+"@code-surfer/standalone@3.1.1":
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/@code-surfer/standalone/-/standalone-3.1.1.tgz#e51de911991667c84abd247ea64aa620c12b1aca"
+  integrity sha512-s6ij4lDh4mE+7l95PmL5INcC2y+Mbnmx5yZDiGWSjKixN6rtJB1LFulKx/ixe2WU6NhOdQRUI5dQYX50JBj3gg==
   dependencies:
-    "@code-surfer/step-parser" "3.1.0"
-    "@code-surfer/themes" "3.1.0"
+    "@code-surfer/step-parser" "3.1.1"
+    "@code-surfer/themes" "3.1.1"
     "@types/table" "^4.0.7"
     "@types/theme-ui" "^0.2.2"
     array.prototype.flat "^1.2.1"
@@ -1037,20 +1037,20 @@
     rebound "^0.1.0"
     shell-quote "^1.6.1"
 
-"@code-surfer/step-parser@3.1.0":
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/@code-surfer/step-parser/-/step-parser-3.1.0.tgz#4c068d6d42209e9cd6f6fd60ba1656a1415cac19"
-  integrity sha512-bcI64mZAAYPRQwvcow7ec+rMTDgO6aPV6jSKWniF7Il/Ijbka5q53/i41UUDsAJRKwcaONrzmA0yMlOvkFBqng==
+"@code-surfer/step-parser@3.1.1":
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/@code-surfer/step-parser/-/step-parser-3.1.1.tgz#89943a6df6799a46cb3368f683041d974fe96bd2"
+  integrity sha512-CcEZX01VUW1tmd4xf+Dqm9ipFsQB133VgypkUg/LP1NvD6XMuMagbMCuJuk+rkdz8t4cph5rhgDgE+hNgzr6Pw==
   dependencies:
     array.prototype.flat "^1.2.1"
     diff "^4.0.1"
     prismjs "^1.16.0"
     shell-quote "^1.6.1"
 
-"@code-surfer/themes@3.1.0":
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/@code-surfer/themes/-/themes-3.1.0.tgz#fd05db12f99f8bc771d6f7ca03dfdc7d1bc963e0"
-  integrity sha512-2QCxEHWzUWfbn5vaqq0tJFuuHhddlBAzEP6gJlO7dCoNrn4GnPpVfsnxOioqJtzoMy8gAv6ecMZlnZvnQ1u8Og==
+"@code-surfer/themes@3.1.1":
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/@code-surfer/themes/-/themes-3.1.1.tgz#b7ec59e3bdf552bd41a1240fe1d999595f4aeb61"
+  integrity sha512-XKoRsVgr09DPVfhmUeULzVykjjsV7OPPSexgF3T1NBG9sAoZcPe5aJljFyc3hutR90cLhavbDWCeikYqryPpfg==
 
 "@emotion/babel-plugin-jsx-pragmatic@^0.1.5":
   version "0.1.5"
@@ -3480,19 +3480,19 @@ coa@^2.0.2:
     chalk "^2.4.1"
     q "^1.1.2"
 
-code-surfer@3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/code-surfer/-/code-surfer-3.1.0.tgz#524e1f05e264f173545c3a69cc47098a444df87e"
-  integrity sha512-usJZc73Uc2ISgQ2ebX88bVPgc+N1MjiMWZJK9zJRzBXzX9NG3okWVCro9Vcfs8aft0hBkUv/SPxOgLY6bzHu9Q==
+code-surfer@3.1.1:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/code-surfer/-/code-surfer-3.1.1.tgz#f716145a87bcbf8ec09ddcd0db50a6bfe4bbe2f9"
+  integrity sha512-qYMY6CnRKjKSyJIGwv2cp2QjYWqsRsmWm37FJpZkAcxF4EyOjKqReQR7ivzz5Ztm22lfwXhFdlcgZ290AALQlg==
   dependencies:
-    "@code-surfer/standalone" "3.1.0"
+    "@code-surfer/standalone" "3.1.1"
     "@types/theme-ui" "^0.2.0"
     array.prototype.flat "^1.2.1"
     diff "^4.0.1"
     prismjs "^1.16.0"
     rebound "^0.1.0"
     shell-quote "^1.6.1"
-    use-spring "^0.1.1"
+    use-spring "^0.2.2"
 
 collapse-white-space@^1.0.0, collapse-white-space@^1.0.2:
   version "1.0.6"
@@ -12916,10 +12916,10 @@ use-sidecar@^1.0.1:
     detect-node-es "^1.0.0"
     tslib "^1.9.3"
 
-use-spring@^0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/use-spring/-/use-spring-0.1.1.tgz#fa213d32db2cbde949e6fd5a1230a9c5f1efa618"
-  integrity sha512-hhYZHPCyiOj/OF8NZqobxsxZbb2RrIreeOnxgXUojxNWZbWmCTENcQFes7iyujPkwyDPXmXx/Ntyr9zaIq7XYA==
+use-spring@^0.2.2:
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/use-spring/-/use-spring-0.2.3.tgz#d38f5d1d3782c91d5d97451b5a62b0eef64d097f"
+  integrity sha512-abMGNpqbU/qTZ3bKKOTPDdfaxbywzXDiOmyjs77j58nrOeeSG2TKBafZhMVz2WTwsMGPJuysInSVvxfhr0FEIw==
 
 use@^3.1.0:
   version "3.1.1"
