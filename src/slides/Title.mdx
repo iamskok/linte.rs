@@ -1,0 +1,15 @@
+import Layout from "../components/Layout";
+import logoSrc from "../images/logo.svg";
+
+<div
+  style={{
+    display: "flex",
+    flexDirection: "row",
+    justifyContent: "space-around",
+  }}
+>
+  <h1>Lint all the things</h1>
+  <img style={{ width: 200 }} src={logoSrc} alt="Deck logo" />
+</div>
+
+export default ({ children }) => <Layout>{children}</Layout>;

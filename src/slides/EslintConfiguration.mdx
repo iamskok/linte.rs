@@ -1,8 +1,4 @@
-import {
-  CodeSurfer,
-  CodeSurferColumns,
-  Step,
-} from "code-surfer";
+import { CodeSurfer, CodeSurferColumns, Step } from "code-surfer";
 import { github } from "@code-surfer/themes";
 import Layout from "../components/Layout";
 
@@ -14,7 +10,7 @@ import Layout from "../components/Layout";
 <Step>
 
 
-```js
+```json title=".eslintrc.json"
 {
   "parserOptions": {
     "ecmaVersion": 2020,
@@ -25,12 +21,12 @@ import Layout from "../components/Layout";
   },
   "env": {
     "es2020": true,
-    "browser": true,
+    "browser": true
   },
   "settings": {
     "react": {
       "version": "detect"
-    },
+    }
   },
   "plugins": ["import", "jsx-a11y", "react", "react-hooks"],
   "extends": [
@@ -39,7 +35,7 @@ import Layout from "../components/Layout";
     "plugin:react-hooks/recommended"
   ],
   "rules": {
-    "no-console": "error",
+    "no-console": "error"
   },
   "overrides": [
     {
@@ -55,12 +51,12 @@ import Layout from "../components/Layout";
       },
       "env": {
         "es2020": true,
-        "browser": true,
+        "browser": true
       },
       "settings": {
         "react": {
           "version": "detect"
-        },
+        }
       },
       "plugins": [
         "import",
@@ -73,13 +69,13 @@ import Layout from "../components/Layout";
         "plugin:jsx-a11y/recommended",
         "plugin:react/recommended",
         "plugin:react-hooks/recommended",
-        "plugin:@typescript-eslint/recommended",
+        "plugin:@typescript-eslint/recommended"
       ],
       "rules": {
-        "no-console": "error",
-      },
-    },
-  ],
+        "no-console": "error"
+      }
+    }
+  ]
 }
 ```
 
@@ -689,6 +685,4 @@ import Layout from "../components/Layout";
 </CodeSurferColumns>
 
 
-export default ({ children }) => (
-  <Layout>{children}</Layout>
-);
+export default ({ children }) => <Layout>{children}</Layout>;

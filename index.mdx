@@ -1,13 +1,9 @@
-import {
-  CodeSurfer,
-  CodeSurferColumns,
-  Step,
-} from "code-surfer";
+import { CodeSurfer, CodeSurferColumns, Step } from "code-surfer";
 import { github } from "@code-surfer/themes";
 
 <!-- Intro -->
 
-import DeckTitle from "./src/slides/DeckTitle.mdx";
+import Title from "./src/slides/Title.mdx";
 import ListOfTools from "./src/slides/ListOfTools.mdx";
 
 <!-- ESLint -->
@@ -43,7 +39,12 @@ import HuskyIntro from "./src/slides/HuskyIntro.mdx";
 import HuskyInstallation from "./src/slides/HuskyInstallation.mdx";
 import HuskyConfiguration from "./src/slides/HuskyConfiguration.mdx";
 
-<DeckTitle />
+<!-- Others -->
+
+import Links from "./src/slides/Links";
+import Thanks from "./src/slides/Thanks";
+
+<Title />
 
 ---
 
@@ -107,10 +108,6 @@ import HuskyConfiguration from "./src/slides/HuskyConfiguration.mdx";
 
 ---
 
-<ConventionalCommitStructuralElements />
-
----
-
 <CommitlintDependencies />
 
 ---
@@ -132,3 +129,15 @@ import HuskyConfiguration from "./src/slides/HuskyConfiguration.mdx";
 ---
 
 <HuskyConfiguration />
+
+---
+
+<Links />
+
+---
+
+<Thanks />
+
+---
+
+<About />
